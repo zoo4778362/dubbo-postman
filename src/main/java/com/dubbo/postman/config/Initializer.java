@@ -50,7 +50,7 @@ import java.net.URL;
 import java.util.Set;
 
 /**
- * @author everythingbest
+ *
  * 执行系统启动的时候需要加载的配置
  */
 public class Initializer {

@@ -29,7 +29,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 /**
- * @author everythingbest
+ *
  * 提供获取异常内容的方法
  */
 public class ExceptionHelper {

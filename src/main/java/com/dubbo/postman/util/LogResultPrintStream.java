@@ -29,7 +29,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 /**
- * @author everythingbest
+ *
  *
  */
 public class LogResultPrintStream extends PrintStream {

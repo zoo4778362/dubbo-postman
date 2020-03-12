@@ -41,7 +41,7 @@ import java.util.*;
 /**
  * 用例相关的操作
  * 用例在这个系统里面指一个接口的请求,目前来说是对一个dubbo接口的请求{@link UserCaseDto}
- * @author everythingbest
+ *
  */
 @Controller
 @RequestMapping("/dubbo-postman/")

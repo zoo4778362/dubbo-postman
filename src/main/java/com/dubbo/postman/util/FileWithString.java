@@ -29,7 +29,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * @author everythingbest
+ *
  * 文件和字符串的相互转换 参考自rocketmq
  */
 public class FileWithString {

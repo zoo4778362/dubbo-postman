@@ -44,7 +44,7 @@ import java.util.Set;
 /**
  * 场景相关的操作
  * 一个场景用例包含多个用例的请求响应,多个请求依赖前面的响应结果{@link SceneCaseDto}
- * @author everythingbest
+ *
  */
 @Controller
 @RequestMapping("/dubbo-postman/")

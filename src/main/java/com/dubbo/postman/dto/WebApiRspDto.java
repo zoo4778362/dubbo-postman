@@ -30,7 +30,7 @@ import org.slf4j.LoggerFactory;
 import java.util.function.Function;
 
 /**
- * @author everythingbest powered by WebApiResonse
+ *  powered by WebApiResonse
  * @param <T>
  */
 public class WebApiRspDto<T>{

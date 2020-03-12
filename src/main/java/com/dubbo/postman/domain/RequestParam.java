@@ -30,7 +30,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @author everythingbest
+ *
  * 定义参数的匹配关系
  */
 @Data

@@ -26,7 +26,7 @@ package com.dubbo.postman.service.dubboinvoke;
 
 /**
  * 定义响应状态码
- * @author everythingbest
+ *
  */
 public enum ResponseCode {
     //desc

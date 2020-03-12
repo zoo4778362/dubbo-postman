@@ -37,7 +37,7 @@ import javax.annotation.Resource;
 
 /**
  * 根据dubbo model构建template
- * @author everythingbest
+ *
  */
 @Service
 public class TemplateBuilder {

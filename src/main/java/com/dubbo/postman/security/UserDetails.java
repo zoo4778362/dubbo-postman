@@ -32,7 +32,7 @@ import java.util.Collection;
 import java.util.HashSet;
 
 /**
- * @author everythingbest
+ *
  */
 public class UserDetails extends User implements
         org.springframework.security.core.userdetails.UserDetails {

@@ -34,7 +34,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * @author everythingbest
+ *
  * 处理从nexus下载api.jar
  * 然后通过embededmaven下载这个api.jar的依赖
  */

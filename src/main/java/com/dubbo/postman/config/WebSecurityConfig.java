@@ -40,7 +40,7 @@ import org.springframework.security.web.authentication.logout.LogoutFilter;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 
 /**
- * @author everythingbest
+ *
  * 用户登陆登出授权相关操作
  * 如果启用cas的话把下面的注释去掉即可
  */

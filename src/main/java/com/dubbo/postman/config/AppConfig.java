@@ -35,7 +35,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author everythingbest
+ *
  * 启动的时候systemInit()加载需要的zk地址和已经创建的服务
  */
 @Configuration

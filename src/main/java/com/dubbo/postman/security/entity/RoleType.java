@@ -25,7 +25,7 @@
 package com.dubbo.postman.security.entity;
 
 /**
- * @author everythingbest
+ *
  */
 public enum RoleType {
 

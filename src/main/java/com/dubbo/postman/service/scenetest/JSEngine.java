@@ -37,7 +37,7 @@ import java.net.URL;
 import java.util.*;
 
 /**
- * @author everythingbest
+ *
  * javaScript执行引擎
  */
 public class JSEngine {

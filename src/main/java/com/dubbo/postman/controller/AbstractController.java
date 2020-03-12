@@ -37,7 +37,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author everythingbest
+ *
  * 提供一些公共的模板方法
  */
 @Service

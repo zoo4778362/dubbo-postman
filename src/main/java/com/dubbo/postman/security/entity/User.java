@@ -30,7 +30,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author everythingbest
+ *
  */
 @Data
 public class User {

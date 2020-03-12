@@ -25,7 +25,7 @@
 package com.dubbo.postman.service.dubboinvoke;
 
 /**
- * @author everythingbest
+ *
  * 参数解析异常
  */
 public class ParamException extends Exception {

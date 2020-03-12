@@ -28,7 +28,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author everythingbest
+ *
  * 判断字符串是否是一个ip
  */
 public class IpUtil {

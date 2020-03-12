@@ -30,7 +30,7 @@ import com.dubbo.postman.security.entity.User;
 import java.util.List;
 
 /**
- * @author everythingbest
+ *
  */
 public interface UserService {
     

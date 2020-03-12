@@ -33,7 +33,7 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 /**
- * @author everythingbest
+ *
  * 批量请求,用于关联测试的操作
  * 接口1传递参数给接口2
  *

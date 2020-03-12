@@ -25,7 +25,7 @@
 package com.dubbo.postman.util;
 
 /**
- * @author everythingbest
+ *
  * 系统中用到的常量
  */
 public class Constant {

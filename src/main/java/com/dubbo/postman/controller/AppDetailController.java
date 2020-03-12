@@ -47,7 +47,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author everythingbest
+ *
  * 应用详细信息查询相关
  */
 @Controller

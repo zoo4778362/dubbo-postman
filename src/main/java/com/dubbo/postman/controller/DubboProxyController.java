@@ -41,7 +41,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 
 /**
- * @author everythingbest
+ *
  * 访问dubbo的对外接口
  */
 @Controller

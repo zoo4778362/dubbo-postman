@@ -35,7 +35,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author everythingbest
+ *
  * cas拦截点配置
  * 因为是前后端分离,在前端检测登陆是否失效,需要在每次进行ajax请求的时候带上ajax-header,
  * 在session过期的时候,会执行这个类的commence方法{@link AuthenticationEntryPoint}

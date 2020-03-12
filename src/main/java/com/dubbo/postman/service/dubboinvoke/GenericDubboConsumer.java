@@ -42,7 +42,7 @@ import java.util.WeakHashMap;
 
 /**
  * 统一的消费dubbo的服务
- * @author everythingbest
+ *
  */
 @Service
 public class GenericDubboConsumer {

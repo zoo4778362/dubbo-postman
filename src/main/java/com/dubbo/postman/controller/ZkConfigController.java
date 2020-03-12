@@ -40,7 +40,7 @@ import javax.annotation.Resource;
 import java.util.Set;
 
 /**
- * @author everythingbest
+ *
  * 目前提供动态添加和删除zk的地址
  */
 @Controller

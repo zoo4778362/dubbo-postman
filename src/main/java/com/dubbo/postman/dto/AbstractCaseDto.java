@@ -27,7 +27,7 @@ package com.dubbo.postman.dto;
 import lombok.Data;
 
 /**
- * @author everythingbest
+ *
  * 标识一个测试用例
  */
 @Data

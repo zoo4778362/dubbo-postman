@@ -50,7 +50,7 @@ import javax.annotation.Resource;
 
 /**
  * 提供服务的创建及刷新的功能
- * @author everythingbest
+ *
  */
 @Controller
 @RequestMapping("/dubbo-postman/")

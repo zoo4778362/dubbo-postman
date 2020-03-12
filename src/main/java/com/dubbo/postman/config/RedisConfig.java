@@ -28,49 +28,60 @@ import com.dubbo.postman.util.Constant;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.connection.RedisPassword;
 import org.springframework.data.redis.connection.RedisSentinelConfiguration;
+import org.springframework.data.redis.connection.RedisStandaloneConfiguration;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import redis.clients.jedis.JedisPoolConfig;
 
-/**
- * @author everythingbest
- * redis连接相关的配置
- */
 @Configuration
 public class RedisConfig {
+//
+//    @Value("${sentinel.master}")
+//    String nodeMaster;
+//
+//    @Value("${redis.password}")
+//    String nodePassword;
+//
+//    @Value("${node1.ip}")
+//    String node1Ip;
+//
+//    @Value("${node2.ip}")
+//    String node2Ip;
+//
+//    @Value("${node3.ip}")
+//    String node3Ip;
+//
+    @Value("${redis.ip}")
+    String redisHostName;
 
-    @Value("${sentinel.master}")
-    String nodeMaster;
-
-    @Value("${redis.password}")
-    String nodePassword;
-
-    @Value("${node1.ip}")
-    String node1Ip;
-
-    @Value("${node2.ip}")
-    String node2Ip;
-
-    @Value("${node3.ip}")
-    String node3Ip;
+    @Value("${redis.port}")
+    Integer redisPort;
 
     @Bean
     public JedisConnectionFactory jedisConnectionFactory() {
 
-        String[] node1 = node1Ip.split(Constant.PORT_SPLITTER);
-        String[] node2 = node1Ip.split(Constant.PORT_SPLITTER);
-        String[] node3 = node1Ip.split(Constant.PORT_SPLITTER);
 
-        RedisSentinelConfiguration sentinelConfig = new RedisSentinelConfiguration()
-                .master(nodeMaster)
-                .sentinel(node1[0], Integer.valueOf(node1[1]))
-                .sentinel(node2[0], Integer.valueOf(node2[1]))
-                .sentinel(node3[0], Integer.valueOf(node3[1]));
+        //redis 单实例配置
+//        String[] node1 = node1Ip.split(Constant.PORT_SPLITTER);
+//        String[] node2 = node1Ip.split(Constant.PORT_SPLITTER);
+//        String[] node3 = node1Ip.split(Constant.PORT_SPLITTER);
 
-        JedisConnectionFactory jedisConnectionFactory = new JedisConnectionFactory(sentinelConfig);
+        RedisStandaloneConfiguration standaloneConfiguration = new RedisStandaloneConfiguration();
+        standaloneConfiguration.setHostName(redisHostName);
+        standaloneConfiguration.setPort(redisPort);
+        standaloneConfiguration.setDatabase(1);
 
-        jedisConnectionFactory.setPassword(nodePassword);
+//        RedisSentinelConfiguration sentinelConfig = new RedisSentinelConfiguration()
+//                .master(nodeMaster)
+//                .sentinel(node1[0], Integer.valueOf(node1[1]))
+//                .sentinel(node2[0], Integer.valueOf(node2[1]))
+//                .sentinel(node3[0], Integer.valueOf(node3[1]));
+
+        JedisConnectionFactory jedisConnectionFactory = new JedisConnectionFactory(standaloneConfiguration);
+
+//        jedisConnectionFactory.setPassword(nodePassword);
 
         JedisPoolConfig poolConfig = new JedisPoolConfig();
 
@@ -80,6 +91,7 @@ public class RedisConfig {
 
         return jedisConnectionFactory;
     }
+
 
     @Bean
     public RedisTemplate redisTemplate(){

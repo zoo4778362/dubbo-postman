@@ -25,7 +25,7 @@
 package com.dubbo.postman.util;
 
 /**
- * @author everythingbest
+ *
  */
 public class CommonUtil {
     

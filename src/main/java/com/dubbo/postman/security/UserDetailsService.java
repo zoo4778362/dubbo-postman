@@ -32,7 +32,7 @@ import org.springframework.stereotype.Component;
 
 
 /**
- * @author everythingbest
+ *
  * cas authentication UserDetailsService
  *
  */

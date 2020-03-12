@@ -30,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author everythingbest
+ *
  * 测试场景详细信息标识
  */
 @Data

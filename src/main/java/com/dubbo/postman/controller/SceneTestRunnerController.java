@@ -49,7 +49,7 @@ import java.util.Map;
 /**
  * 批量处理用例
  * 场景测试运行相关的操作
- * @author everythingbest
+ *
  */
 @Controller
 @RequestMapping("/dubbo-postman/")

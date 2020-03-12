@@ -46,7 +46,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author everythingbest
+ *
  *
  * 通过ApiJarClassLoader来实现api.jar的加载
  */

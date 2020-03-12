@@ -28,7 +28,7 @@ package com.dubbo.postman.domain;
 import lombok.Data;
 
 /**
- * @author everythingbest
+ *
  *
  */
 @Data

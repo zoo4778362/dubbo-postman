@@ -38,7 +38,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 
 /**
- * @author everythingbest
+ *
  * 基于jackson的简单封装
  */
 public class JSON {

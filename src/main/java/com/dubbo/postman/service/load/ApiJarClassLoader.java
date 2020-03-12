@@ -28,7 +28,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 
 /**
- * @author everythingbest
+ *
  * 加载api.jar,每个api.jar有一个ApiJarClassLoader加载
  * 这样可以方便进行重新加载和卸载
  * 这里使用了jdk默认的双亲委派加载机制

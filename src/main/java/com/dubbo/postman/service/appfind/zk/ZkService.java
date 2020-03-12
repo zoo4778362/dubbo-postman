@@ -43,7 +43,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author everythingbest
+ *
  * 这个类的所有变量都是私有的
  * 处理一个zk集群下面dubbo节点的变更同步
  */

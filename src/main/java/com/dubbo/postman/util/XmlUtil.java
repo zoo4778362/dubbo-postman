@@ -36,7 +36,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author everythingbest
+ *
  * pom.xml里面的dependency的解析
  */
 public class XmlUtil {
